@@ -8,12 +8,6 @@ body {
   color: black;
 }
 
-.thank-you-page {
-  background-position: bottom right;
-  background-attachment: fixed;
-  background-image: url("../img/bg_thank_you@1x.jpg");
-}
-
 .gradient-text {
   background: -webkit-linear-gradient(#33B864, #198E44);
   -webkit-background-clip: text;
@@ -22,6 +16,10 @@ body {
 
 .gradient-button {
   background: radial-gradient(50% 50% at 50% 50%, #33B864 0%, #198E44 100%);
+}
+
+.gradient-button-blue {
+  background: radial-gradient(50% 50% at 50% 50%, #5DC9F9 0%, #28B6F6 100%);
 }
 
 .font-poppins {
@@ -41,18 +39,6 @@ body {
 @media only screen and (max-width: 1024px) {
   body {
     background-image: none;
-  }
-
-  .thank-you-page {
-    background-image: url("../img/bg_thank_you_mobile@1x.jpg");
-  }
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  @media only screen and (max-width: 1024px) {
-    .thank-you-page {
-      background-image: url("../img/bg_thank_you_mobile@2x.jpg");
-    }
   }
 }
 
