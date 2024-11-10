@@ -8,6 +8,14 @@ body {
   color: black;
 }
 
+#bonus-html {
+  background-repeat: no-repeat;
+  background-position: top -120px center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../img/bonus-bg.png");
+}
+
 .gradient-text {
   background: -webkit-linear-gradient(#33B864, #198E44);
   -webkit-background-clip: text;
@@ -38,6 +46,10 @@ body {
 
 @media only screen and (max-width: 1024px) {
   body {
+    background-image: none;
+  }
+
+  #bonus-html {
     background-image: none;
   }
 }
@@ -1036,6 +1048,10 @@ video {
   font-size: 32px;
 }
 
+.text-\[36px\] {
+  font-size: 36px;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -1225,6 +1241,10 @@ video {
     padding-bottom: 1.25rem;
   }
 
+  .lg\:pl-\[50\%\] {
+    padding-left: 50%;
+  }
+
   .lg\:pr-\[50\%\] {
     padding-right: 50%;
   }
@@ -1303,6 +1323,10 @@ video {
     width: auto;
   }
 
+  .xl\:w-\[600px\] {
+    width: 600px;
+  }
+
   .xl\:gap-4 {
     gap: 1rem;
   }
@@ -1348,5 +1372,13 @@ video {
 
   .xl\:text-\[52px\] {
     font-size: 52px;
+  }
+
+  .xl\:text-\[60px\] {
+    font-size: 60px;
+  }
+
+  .xl\:text-\[65px\] {
+    font-size: 65px;
   }
 }

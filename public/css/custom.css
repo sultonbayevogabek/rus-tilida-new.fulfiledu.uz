@@ -9,6 +9,13 @@ body {
   color: black;
 }
 
+#bonus-html {
+  background-repeat: no-repeat;
+  background-position: top -120px center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../img/bonus-bg.png");
+}
 
 
 .gradient-text {
@@ -45,6 +52,9 @@ body {
     background-image: none;
   }
 
+  #bonus-html {
+    background-image: none;
+  }
 }
 
 
