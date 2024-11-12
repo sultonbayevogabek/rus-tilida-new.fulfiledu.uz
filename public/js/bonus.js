@@ -90,7 +90,7 @@ try {
       formData.append('Telefon raqami', "+998" + phone);
       formData.append(`Ro'yxatdan o'tgan vaqti`, new Date().toLocaleString());
 
-      location.href = `https://t.me/+C2wOO0mfdgI4MDky`;
+      location.href = `https://t.me/+SSVIBh9zAcxhMDAy`;
 
       submitButton.removeAttribute('disabled');
       submitButton.textContent = "Ro'yxatdan o'tish";
