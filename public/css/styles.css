@@ -1311,6 +1311,10 @@ video {
     width: 540px;
   }
 
+  .xl\:w-\[600px\] {
+    width: 600px;
+  }
+
   .xl\:w-\[765px\] {
     width: 765px;
   }
@@ -1321,10 +1325,6 @@ video {
 
   .xl\:w-auto {
     width: auto;
-  }
-
-  .xl\:w-\[600px\] {
-    width: 600px;
   }
 
   .xl\:gap-4 {
@@ -1372,10 +1372,6 @@ video {
 
   .xl\:text-\[52px\] {
     font-size: 52px;
-  }
-
-  .xl\:text-\[60px\] {
-    font-size: 60px;
   }
 
   .xl\:text-\[65px\] {
