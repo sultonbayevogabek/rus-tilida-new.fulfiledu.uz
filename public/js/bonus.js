@@ -90,12 +90,12 @@ try {
       formData.append('Telefon raqami', "+998" + phone);
       formData.append(`Ro'yxatdan o'tgan vaqti`, new Date().toLocaleString());
 
-      location.href = `https://t.me/+eXL35tLWFjozYzFi`;
+      location.href = `https://t.me/+NrvWQHR5i65mNGNi`;
 
       submitButton.removeAttribute('disabled');
       submitButton.textContent = "Ro'yxatdan o'tish";
       closeBonusModal();
-      await fetch('https://script.google.com/macros/s/AKfycbx3BM4pk278QxpvEgdiHdV1fI4XVI73-EoqCFpodIISga_nlQxtlZE8aCiL6Us9zyqubA/exec', {
+      await fetch('https://script.google.com/macros/s/AKfycbzuqIheYuQak4Rdq7ubLfPfBMgLNIU5FAhVc6SrBw7CoB14XNyUJM4ELjwQD1Qo8hgQUQ/exec', {
         method: 'POST',
         body: formData
       })
