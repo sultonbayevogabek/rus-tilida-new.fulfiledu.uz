@@ -51,9 +51,25 @@
 
       <!--   MOBILE MENTOR   -->
       <div class="block lg:hidden">
-        <img class="w-full md:w-3/4 block mx-auto" src="img/mentor-mobile.png"
-             srcset="img/mentor-mobile.png 1x, img/mentor-mobile@2x.png 2x"
-             alt="Mentor image">
+        <picture class="w-full md:w-3/4 block mx-auto" style="aspect-ratio: 374/366">
+          <source
+            srcset="img/mentor-mobile@2x.webp 2x, img/mentor-mobile@1x.webp 1x"
+            type="image/webp"
+          />
+
+          <source
+            srcset="img/mentor-mobile@2x.png 2x, img/mentor-mobile@1x.png 1x"
+            type="image/png"
+          />
+
+          <img
+            class="w-full h-full"
+            src="img/mentor-mobile@1x.png"
+            srcset="img/mentor-mobile@2x.png 2x, img/mentor-mobile@1x.png 1x"
+            alt="Rasm tavsifi"
+          />
+        </picture>
+
       </div>
 
       <div class="flex lg:hidden items-center justify-center lg:justify-start gap-10 mt-[-40px]">
