@@ -6,9 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   form.addEventListener('submit', function (event) {
     event.preventDefault();
-
-    console.log(nameInput.value);
-    console.log(phoneInput.value);
   })
 
   submitButton.addEventListener('click', (event) => {
