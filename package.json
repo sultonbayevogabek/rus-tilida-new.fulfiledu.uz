@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "tailwindcss -i ./public/css/input.css -o ./public/css/styles.css --watch"
+    "watch": "tailwindcss -i css/input.css -o ./public/css/styles.css --watch"
   },
   "keywords": [],
   "author": "",
