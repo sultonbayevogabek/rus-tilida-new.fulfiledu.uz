@@ -4,7 +4,7 @@ body {
   background-position: top -80px center;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("../img/main-bg.jpg");
+  background-image: url("../img/main-bg.webp");
   font-family: "Poppins", "Arial", sans-serif;
   color: black;
 }
@@ -43,7 +43,7 @@ body {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   body {
-    background-image: url("../img/main-bg@2x.jpg");
+    background-image: url("../img/main-bg@2x.webp");
   }
 }
 
